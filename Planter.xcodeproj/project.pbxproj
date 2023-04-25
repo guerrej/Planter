@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1ECBF11F29F887930064EC3A /* PlanterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBF11E29F887930064EC3A /* PlanterApp.swift */; };
-		1ECBF12129F887930064EC3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBF12029F887930064EC3A /* ContentView.swift */; };
+		1ECBF12129F887930064EC3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBF12029F887930064EC3A /* HomeView.swift */; };
 		1ECBF12329F887940064EC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ECBF12229F887940064EC3A /* Assets.xcassets */; };
 		1ECBF12629F887940064EC3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ECBF12529F887940064EC3A /* Preview Assets.xcassets */; };
+		1ECBF12D29F888140064EC3A /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBF12C29F888140064EC3A /* TabItem.swift */; };
+		1ECBF12F29F8886A0064EC3A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBF12E29F8886A0064EC3A /* Extensions.swift */; };
+		1ECBF13129F888930064EC3A /* CustomShape_TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBF13029F888930064EC3A /* CustomShape_TabItem.swift */; };
+		1ECBF13329F888C30064EC3A /* BarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBF13229F888C30064EC3A /* BarButton.swift */; };
+		1ECBF13529F889070064EC3A /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBF13429F889070064EC3A /* CustomTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1ECBF11B29F887930064EC3A /* Planter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECBF11E29F887930064EC3A /* PlanterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanterApp.swift; sourceTree = "<group>"; };
-		1ECBF12029F887930064EC3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1ECBF12029F887930064EC3A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1ECBF12229F887940064EC3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ECBF12529F887940064EC3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ECBF12C29F888140064EC3A /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		1ECBF12E29F8886A0064EC3A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1ECBF13029F888930064EC3A /* CustomShape_TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape_TabItem.swift; sourceTree = "<group>"; };
+		1ECBF13229F888C30064EC3A /* BarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButton.swift; sourceTree = "<group>"; };
+		1ECBF13429F889070064EC3A /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				1ECBF11E29F887930064EC3A /* PlanterApp.swift */,
-				1ECBF12029F887930064EC3A /* ContentView.swift */,
+				1ECBF12029F887930064EC3A /* HomeView.swift */,
 				1ECBF12229F887940064EC3A /* Assets.xcassets */,
 				1ECBF12429F887940064EC3A /* Preview Content */,
+				1ECBF12C29F888140064EC3A /* TabItem.swift */,
+				1ECBF12E29F8886A0064EC3A /* Extensions.swift */,
+				1ECBF13029F888930064EC3A /* CustomShape_TabItem.swift */,
+				1ECBF13229F888C30064EC3A /* BarButton.swift */,
+				1ECBF13429F889070064EC3A /* CustomTabBarView.swift */,
 			);
 			path = Planter;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ECBF12129F887930064EC3A /* ContentView.swift in Sources */,
+				1ECBF13529F889070064EC3A /* CustomTabBarView.swift in Sources */,
+				1ECBF13129F888930064EC3A /* CustomShape_TabItem.swift in Sources */,
+				1ECBF12129F887930064EC3A /* HomeView.swift in Sources */,
 				1ECBF11F29F887930064EC3A /* PlanterApp.swift in Sources */,
+				1ECBF13329F888C30064EC3A /* BarButton.swift in Sources */,
+				1ECBF12D29F888140064EC3A /* TabItem.swift in Sources */,
+				1ECBF12F29F8886A0064EC3A /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
