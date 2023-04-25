@@ -15,7 +15,7 @@ struct HomeView: View {
         init() {
             UITabBar.appearance().isHidden = true
         }
-        var body: some View{
+        var body: some View {
             
             VStack(spacing: 0){
                 TabView(selection: $selected){
