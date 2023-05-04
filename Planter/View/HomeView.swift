@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct HomeView: View {
-    var tabItems = TabItem.allCases
     
+    var tabItems = TabItem.allCases
     @State var selected: TabItem = .home
+    @EnvironmentObject var networkManager: NetworkManager
     
     init() {
         UITabBar.appearance().isHidden = true
@@ -22,6 +23,7 @@ struct HomeView: View {
                 
                 HomeViewContent()
                     .tag(tabItems[0])
+                    .environmentObject(networkManager)
                 
                 BrowseView()
                     .tag(tabItems[1])
@@ -40,5 +42,6 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .environmentObject(NetworkManager())
     }
 }

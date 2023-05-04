@@ -13,6 +13,9 @@
 		1E26FC9F29FC6D790001A435 /* SavedPlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E26FC9E29FC6D790001A435 /* SavedPlantsView.swift */; };
 		1E26FCA129FC6F440001A435 /* PlantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E26FCA029FC6F440001A435 /* PlantListView.swift */; };
 		1E26FCA329FC70740001A435 /* PlantCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E26FCA229FC70740001A435 /* PlantCardView.swift */; };
+		1E6220C529FEFA9E00431888 /* HardinessZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6220C429FEFA9E00431888 /* HardinessZone.swift */; };
+		1E6220CA29FEFBC700431888 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6220C929FEFBC700431888 /* NetworkManager.swift */; };
+		1E9C1DE329FC86DA00D029C4 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C1DE229FC86DA00D029C4 /* Plant.swift */; };
 		1ECBF11F29F887930064EC3A /* PlanterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBF11E29F887930064EC3A /* PlanterApp.swift */; };
 		1ECBF12129F887930064EC3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECBF12029F887930064EC3A /* HomeView.swift */; };
 		1ECBF12329F887940064EC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ECBF12229F887940064EC3A /* Assets.xcassets */; };
@@ -31,6 +34,9 @@
 		1E26FC9E29FC6D790001A435 /* SavedPlantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlantsView.swift; sourceTree = "<group>"; };
 		1E26FCA029FC6F440001A435 /* PlantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListView.swift; sourceTree = "<group>"; };
 		1E26FCA229FC70740001A435 /* PlantCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCardView.swift; sourceTree = "<group>"; };
+		1E6220C429FEFA9E00431888 /* HardinessZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardinessZone.swift; sourceTree = "<group>"; };
+		1E6220C929FEFBC700431888 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1E9C1DE229FC86DA00D029C4 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		1ECBF11B29F887930064EC3A /* Planter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECBF11E29F887930064EC3A /* PlanterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanterApp.swift; sourceTree = "<group>"; };
 		1ECBF12029F887930064EC3A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -81,6 +87,8 @@
 		1E26FC9929FC6D010001A435 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1E9C1DE229FC86DA00D029C4 /* Plant.swift */,
+				1E6220C429FEFA9E00431888 /* HardinessZone.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +107,14 @@
 				1ECBF12E29F8886A0064EC3A /* Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1E6220C829FEFBBA00431888 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1E6220C929FEFBC700431888 /* NetworkManager.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		1ECBF11229F887930064EC3A = {
@@ -120,6 +136,7 @@
 		1ECBF11D29F887930064EC3A /* Planter */ = {
 			isa = PBXGroup;
 			children = (
+				1E6220C829FEFBBA00431888 /* Utilities */,
 				1E26FC9B29FC6D130001A435 /* Extensions */,
 				1E26FC9A29FC6D0B0001A435 /* ViewModel */,
 				1E26FC9929FC6D010001A435 /* Model */,
@@ -214,6 +231,8 @@
 				1E26FC9F29FC6D790001A435 /* SavedPlantsView.swift in Sources */,
 				1ECBF13129F888930064EC3A /* CustomShape_TabItem.swift in Sources */,
 				1E26FC9D29FC6D450001A435 /* BrowseView.swift in Sources */,
+				1E6220CA29FEFBC700431888 /* NetworkManager.swift in Sources */,
+				1E6220C529FEFA9E00431888 /* HardinessZone.swift in Sources */,
 				1E26FC9629FC6AFC0001A435 /* ViewModifers.swift in Sources */,
 				1E26FCA329FC70740001A435 /* PlantCardView.swift in Sources */,
 				1ECBF12129F887930064EC3A /* HomeView.swift in Sources */,
@@ -221,6 +240,7 @@
 				1ECBF13329F888C30064EC3A /* BarButton.swift in Sources */,
 				1E26FCA129FC6F440001A435 /* PlantListView.swift in Sources */,
 				1ECBF12D29F888140064EC3A /* TabItem.swift in Sources */,
+				1E9C1DE329FC86DA00D029C4 /* Plant.swift in Sources */,
 				1ECBF12F29F8886A0064EC3A /* Extensions.swift in Sources */,
 				1E25804F29F8B800002FC3B7 /* HomeViewContent.swift in Sources */,
 			);

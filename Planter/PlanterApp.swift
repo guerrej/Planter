@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct PlanterApp: App {
+    
+    var networkManager = NetworkManager()
+    
     var body: some Scene {
         WindowGroup {
             HomeView()
+                .environmentObject(networkManager)
         }
     }
 }
